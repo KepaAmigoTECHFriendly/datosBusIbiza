@@ -1,0 +1,9 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone
+CIE,CONSELL D'EIVISSA,http://eivissa.tib.org,Europe/Madrid,ca,971177777
+38,CONSELL D'EIVISSA,http://eivissa.tib.org,Europe/Madrid,ca,971177777
+39,Herederos de Fco. Vilás SA,http://eivissa.tib.org,Europe/Madrid,ca,971177777
+40,Autocares Lucas Costa,http://eivissa.tib.org,Europe/Madrid,ca,971177777
+41,Voramar el Gaucho,http://eivissa.tib.org,Europe/Madrid,ca,971177777
+42,Autobuses San Antonio SA,http://eivissa.tib.org,Europe/Madrid,ca,971177777
+43,UTE Voramar-San Antonio,http://eivissa.tib.org,Europe/Madrid,ca,971177777
+
