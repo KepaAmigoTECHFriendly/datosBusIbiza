@@ -73,5 +73,6 @@ tiempos_paradas <- function(ruta,destino){
   paradas <- paradas[order(match(paradas$stop_id,tiempos$stop_id)),]
   paradas$tiempo_restante <- tiempos$diferencia
   DF_JSON_LISTADO <- paradas[,c("stop_name","tiempo_restante","stop_lat","stop_lon")]
+  DF_JSON_LISTADO <- toJSON(DF_JSON_LISTADO)
   return(DF_JSON_LISTADO)
 }
