@@ -60,7 +60,6 @@ puntos_ruta <- function(ruta,destino){
   # GENERACIÓN JSON
   #------------------------------------------------------------------------------------
   #------------------------------------------------------------------------------------
-  json_paradas <- toJSON(DF_JSON_LISTADO)
   json_rutas <- toJSON(DF_RUTA)
 
   return(json_rutas)
