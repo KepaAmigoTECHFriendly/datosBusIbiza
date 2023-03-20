@@ -55,6 +55,7 @@ tiempos_paradas <- function(ruta,destino){
     tiempos <- tiempos[order(tiempos$arrival_time),]
     pos_max_secuencia <- match(max(tiempos$stop_sequence),tiempos$stop_sequence)[1]
     tiempos <- tiempos[1:pos_max_secuencia,]
+    tiempos$diferencia <- substr(tiempos$arrival_time,12,16)
   }else{
     tiempos <- tiempos[tiempos$diferencia > 0,]
     pos_min_tiempo <- match(min(tiempos$diferencia),tiempos$diferencia)
