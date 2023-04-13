@@ -50,6 +50,7 @@ tiempos_paradas <- function(ruta,destino){
   tiempo_actual <- Sys.time()
   hour(tiempo_actual) <- hour(tiempo_actual) + 1
   tiempos$diferencia <- round(as.numeric(difftime(tiempos$arrival_time,tiempo_actual, units = "mins")))
+  tiempos <- tiempos[complete.cases(tiempos[, 2]), ]
 
   if(!any(tiempos$diferencia > 0)){ # No hay proximo bus en esta ruta hasta el día siguiente, devuelvo el horario.
     tiempos <- tiempos[order(tiempos$arrival_time),]
