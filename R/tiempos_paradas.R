@@ -72,24 +72,39 @@ tiempos_paradas <- function(ruta,destino){
   tiempos$diferencia <- round(as.numeric(difftime(tiempos$arrival_time,tiempo_actual, units = "mins")))
   tiempos <- tiempos[complete.cases(tiempos[, 2]), ]
 
+
   if(!any(tiempos$diferencia > 0)){ # No hay proximo bus en esta ruta hasta el día siguiente, devuelvo el horario.
     tiempos <- tiempos[order(tiempos$arrival_time),]
     pos_max_secuencia <- match(max(tiempos$stop_sequence),tiempos$stop_sequence)[1]
     tiempos <- tiempos[1:pos_max_secuencia,]
     tiempos$diferencia <- substr(tiempos$arrival_time,12,16)
   }else{
+    pos_max <- max(tiempos$stop_sequence)
+    trip_id_ultimas_paradas <- tiempos[tiempos$stop_sequence == pos_max,]
+    trip_id_ultimas_paradas <- trip_id_ultimas_paradas[trip_id_ultimas_paradas$diferencia > 0,]
+    trip_id_primeras_paradas <- tiempos[tiempos$stop_sequence == 0,]
+    trip_id_primeras_paradas <- trip_id_primeras_paradas[trip_id_primeras_paradas$diferencia > 0,]
+    trip_ids <- unique(tiempos$trip_id)
+    pos_primer_id <- match(trip_id_ultimas_paradas$trip_id[1],trip_ids)
+    pos_ultimo_id <- match(trip_id_primeras_paradas$trip_id[1],trip_ids)
+    trip_ids <- trip_ids[pos_primer_id:pos_ultimo_id]
+
+    tiempos <- tiempos[which(tiempos$trip_id %in% trip_ids),]
     tiempos <- tiempos[tiempos$diferencia > 0,]
-    pos_min_tiempo <- match(min(tiempos$diferencia),tiempos$diferencia)
-    tiempos <- tiempos[pos_min_tiempo:nrow(tiempos),]
-    pos_min_tiempo <- match(min(tiempos$diferencia),tiempos$diferencia)
-    pos_max_secuencia <- match(max(tiempos$stop_sequence),tiempos$stop_sequence)[1]
-    if(tiempos$stop_sequence[pos_min_tiempo] == 0){  # Si está la primera parada por donde pasa
-      tiempos <- tiempos[1:pos_max_secuencia,]
-    }else{
-      posiciones_a_recoger <- which(tiempos$stop_sequence %in% tiempos$stop_sequence[1])[2] - 1
-      tiempos <- tiempos[1:posiciones_a_recoger,]
-      tiempos <- tiempos[order(tiempos$stop_sequence),]
-    }
+    secuencias_duplicadas <- which(duplicated(tiempos$stop_sequence))
+    tiempos <- tiempos[-secuencias_duplicadas,]
+
+    #pos_min_tiempo <- match(min(tiempos$diferencia),tiempos$diferencia)
+    #tiempos <- tiempos[pos_min_tiempo:nrow(tiempos),]
+    #pos_min_tiempo <- match(min(tiempos$diferencia),tiempos$diferencia)
+    #pos_max_secuencia <- match(max(tiempos$stop_sequence),tiempos$stop_sequence)[1]
+    #if(tiempos$stop_sequence[pos_min_tiempo] == 0){  # Si está la primera parada por donde pasa
+    #  tiempos <- tiempos[1:pos_max_secuencia,]
+    #}else{
+    #  posiciones_a_recoger <- which(tiempos$stop_sequence %in% tiempos$stop_sequence[1])[2] - 1
+    #  tiempos <- tiempos[1:posiciones_a_recoger,]
+    #  tiempos <- tiempos[order(tiempos$stop_sequence),]
+    #}
   }
 
 
