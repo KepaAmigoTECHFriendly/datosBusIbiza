@@ -81,6 +81,7 @@ tiempos_paradas <- function(ruta,destino){
     tiempos <- tiempos[tiempos$diferencia > 0,]
     pos_min_tiempo <- match(min(tiempos$diferencia),tiempos$diferencia)
     tiempos <- tiempos[pos_min_tiempo:nrow(tiempos),]
+    pos_min_tiempo <- match(min(tiempos$diferencia),tiempos$diferencia)
     pos_max_secuencia <- match(max(tiempos$stop_sequence),tiempos$stop_sequence)[1]
     if(tiempos$stop_sequence[pos_min_tiempo] == 0){  # Si está la primera parada por donde pasa
       tiempos <- tiempos[1:pos_max_secuencia,]
