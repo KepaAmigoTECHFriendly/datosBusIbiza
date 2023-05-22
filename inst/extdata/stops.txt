@@ -1,4 +1,6 @@
 stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
+30,1100,Punta Arabí (1100),,38.99391,1.577111,1731,https://eivissa.tib.org/web/cie/parades/-/parada/1100
+31,1101,Punta Arabí (1101),,38.993862,1.577033,1873,https://eivissa.tib.org/web/cie/parades/-/parada/1101
 32,1102,Ronda de Ses Mines (1102),,39.02425,1.555819,1930,https://eivissa.tib.org/web/cie/parades/-/parada/1102
 33,2,Policia Municipal (2),,38.978405,1.316333,1712,https://eivissa.tib.org/web/cie/parades/-/parada/2
 34,1103,Ronda de Ses Mines (1103),,39.024174,1.555631,1947,https://eivissa.tib.org/web/cie/parades/-/parada/1103
@@ -6,7 +8,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 36,4,Can Guillemó (4),,38.97481,1.332832,2161,https://eivissa.tib.org/web/cie/parades/-/parada/4
 37,5,"s'Olivera, can Tomàs (5)",,38.973347,1.340463,1672,https://eivissa.tib.org/web/cie/parades/-/parada/5
 38,1098,pont d'en Llàtzer (1098),,38.979935,1.467937,1970,https://eivissa.tib.org/web/cie/parades/-/parada/1098
-39,6,"sa Casilla, Sant Antoni (6)",,38.97145,1.349374,2180,https://eivissa.tib.org/web/cie/parades/-/parada/6
+39,6,sa Casilla (6),,38.97145,1.349374,2180,https://eivissa.tib.org/web/cie/parades/-/parada/6
 40,1099,pont d'en Llàtzer (1099),,38.977436,1.465592,1989,https://eivissa.tib.org/web/cie/parades/-/parada/1099
 41,7,Cooperativa Hostelera (7),,38.967655,1.367733,2011,https://eivissa.tib.org/web/cie/parades/-/parada/7
 42,8,Can Begot (8),,38.965767,1.374881,1841,https://eivissa.tib.org/web/cie/parades/-/parada/8
@@ -19,6 +21,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 49,13,Amnesia (13),,38.94817,1.408639,1777,https://eivissa.tib.org/web/cie/parades/-/parada/13
 50,1090,Niu Blau (1090),,38.995247,1.553402,1584,https://eivissa.tib.org/web/cie/parades/-/parada/1090
 51,14,Porcelanosa (14),,38.94351,1.411343,1761,https://eivissa.tib.org/web/cie/parades/-/parada/14
+52,1091,Palau de Congressos (1091),,38.985256,1.54344,1895,https://eivissa.tib.org/web/cie/parades/-/parada/1091
 53,15,sa Coma (15),,38.934822,1.41652,1574,https://eivissa.tib.org/web/cie/parades/-/parada/15
 54,17,IES sa Blanca Dona (17),,38.92081,1.425079,2066,https://eivissa.tib.org/web/cie/parades/-/parada/17
 55,1116,Sant Llorenç (1116),,39.029655,1.477207,1637,https://eivissa.tib.org/web/cie/parades/-/parada/1116
@@ -29,7 +32,9 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 62,1115,Sant Joan (1115),,39.077312,1.512538,1808,https://eivissa.tib.org/web/cie/parades/-/parada/1115
 63,23,Can Negre (23),,38.927834,1.421123,2053,https://eivissa.tib.org/web/cie/parades/-/parada/23
 65,22,IES sa Blanca Dona (22),,38.921825,1.424704,1913,https://eivissa.tib.org/web/cie/parades/-/parada/22
+66,1109,S'Argamassa (1109),,38.995567,1.568573,1730,https://eivissa.tib.org/web/cie/parades/-/parada/1109
 67,25,Porcelanosa (25),,38.944187,1.411381,2018,https://eivissa.tib.org/web/cie/parades/-/parada/25
+68,1108,S'Argamassa (1108),,38.995502,1.568538,1747,https://eivissa.tib.org/web/cie/parades/-/parada/1108
 69,24,sa Coma (24),,38.935013,1.416773,2150,https://eivissa.tib.org/web/cie/parades/-/parada/24
 70,1111,sa Ferreria (1111),,39.059074,1.49414,1645,https://eivissa.tib.org/web/cie/parades/-/parada/1111
 71,27,Bombers (27),,38.95209,1.407386,1918,https://eivissa.tib.org/web/cie/parades/-/parada/27
@@ -46,15 +51,21 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 83,34,"s'Olivera, can Tomàs (34)",,38.97358,1.340127,2002,https://eivissa.tib.org/web/cie/parades/-/parada/34
 85,35,Can Guillemó (35),,38.975452,1.331233,2131,https://eivissa.tib.org/web/cie/parades/-/parada/35
 87,32,Cooperativa Hostelera (32),,38.967957,1.367665,1627,https://eivissa.tib.org/web/cie/parades/-/parada/32
-88,33,"sa Casilla, Sant Antoni (33)",,38.97166,1.349121,1661,https://eivissa.tib.org/web/cie/parades/-/parada/33
+88,33,sa Casilla (33),,38.97166,1.349121,1661,https://eivissa.tib.org/web/cie/parades/-/parada/33
 90,38,Can Bonet (38),,38.97244,1.331688,2004,https://eivissa.tib.org/web/cie/parades/-/parada/38
 91,39,Los Troncos (39),,38.972904,1.328599,1774,https://eivissa.tib.org/web/cie/parades/-/parada/39
+92,1128,es Figueral (1128),,39.052204,1.590565,1576,https://eivissa.tib.org/web/cie/parades/-/parada/1128
 93,36,ses Païsses (36),,38.977142,1.32313,2029,https://eivissa.tib.org/web/cie/parades/-/parada/36
 95,37,Policia Municipal (37),,38.978554,1.316231,1857,https://eivissa.tib.org/web/cie/parades/-/parada/37
+96,1126,encreuament Cala de Boix (1126),,39.045326,1.579074,1749,https://eivissa.tib.org/web/cie/parades/-/parada/1126
 97,42,Cementeri - Caló des Moro (42),,38.986042,1.299297,1622,https://eivissa.tib.org/web/cie/parades/-/parada/42
+98,1127,Can Joaní (1127),,39.048943,1.583492,1858,https://eivissa.tib.org/web/cie/parades/-/parada/1127
 99,43,IES Quartó de Portmany (43),,38.98696,1.307523,2151,https://eivissa.tib.org/web/cie/parades/-/parada/43
+100,1124,Can Toni Ribas (1124),,39.038277,1.56554,1717,https://eivissa.tib.org/web/cie/parades/-/parada/1124
 101,40,Can Guasch (40),,38.974762,1.324471,1697,https://eivissa.tib.org/web/cie/parades/-/parada/40
+102,1125,Can Pep Poueta (1125),,39.04256,1.571253,1977,https://eivissa.tib.org/web/cie/parades/-/parada/1125
 104,1122,Taller Marí (1122),,39.045113,1.491539,1788,https://eivissa.tib.org/web/cie/parades/-/parada/1122
+105,46,Cementeri - Caló des Moro (46),,38.986134,1.300491,2137,https://eivissa.tib.org/web/cie/parades/-/parada/46
 106,1123,IES Xarc (1123),,38.988213,1.542213,1940,https://eivissa.tib.org/web/cie/parades/-/parada/1123
 107,44,Can Coix (44),,38.994114,1.308786,1716,https://eivissa.tib.org/web/cie/parades/-/parada/44
 108,1121,Taller Marí (1121),,39.045116,1.491611,1734,https://eivissa.tib.org/web/cie/parades/-/parada/1121
@@ -63,6 +74,10 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 111,1149,Can Marines (1149),,39.00141,1.565035,1787,https://eivissa.tib.org/web/cie/parades/-/parada/1149
 112,49,Los Troncos (49),,38.972843,1.328583,1839,https://eivissa.tib.org/web/cie/parades/-/parada/49
 114,48,Can Guasch (48),,38.974754,1.324402,1875,https://eivissa.tib.org/web/cie/parades/-/parada/48
+121,1139,Can Toni Ribas (1139),,39.03845,1.56539,1807,https://eivissa.tib.org/web/cie/parades/-/parada/1139
+122,1138,Can Pep Poueta (1138),,39.04261,1.571249,2028,https://eivissa.tib.org/web/cie/parades/-/parada/1138
+123,1137,encreuament Cala de Boix (1137),,39.045315,1.578873,1696,https://eivissa.tib.org/web/cie/parades/-/parada/1137
+124,1136,Can Joaní (1136),,39.04899,1.582663,1949,https://eivissa.tib.org/web/cie/parades/-/parada/1136
 125,1032,Can Coroner (1032),,39.050884,1.490819,2052,https://eivissa.tib.org/web/cie/parades/-/parada/1032
 126,1033,Can Coroner (1033),,39.05259,1.491772,2111,https://eivissa.tib.org/web/cie/parades/-/parada/1033
 127,1037,Can Creu (1037),,38.97425,1.463527,1945,https://eivissa.tib.org/web/cie/parades/-/parada/1037
@@ -94,9 +109,13 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 155,108,H. Arenal (108),,38.974606,1.308964,2178,https://eivissa.tib.org/web/cie/parades/-/parada/108
 156,109,H. Puchet (109),,38.97062,1.309799,2020,https://eivissa.tib.org/web/cie/parades/-/parada/109
 157,1062,Can Tití (1062),,38.941525,1.444475,1870,https://eivissa.tib.org/web/cie/parades/-/parada/1062
+158,106,Stella Maris (106),,38.995567,1.29233,1847,https://eivissa.tib.org/web/cie/parades/-/parada/106
 159,1063,Can Tití (1063),,38.9418,1.444389,1849,https://eivissa.tib.org/web/cie/parades/-/parada/1063
 161,1060,Can Savi (1060),,39.03711,1.491544,1720,https://eivissa.tib.org/web/cie/parades/-/parada/1060
+162,104,H. Abrat (104),,38.986496,1.29761,1905,https://eivissa.tib.org/web/cie/parades/-/parada/104
 163,1061,Can Savi (1061),,39.037186,1.49148,1785,https://eivissa.tib.org/web/cie/parades/-/parada/1061
+164,105,Cala Gració (105),,38.989326,1.293123,1738,https://eivissa.tib.org/web/cie/parades/-/parada/105
+165,1083,H. Coral (1083),,39.004242,1.579464,31,https://eivissa.tib.org/web/cie/parades/-/parada/1083
 167,1082,Can Fita (1082),,38.92254,1.44033,1912,https://eivissa.tib.org/web/cie/parades/-/parada/1082
 168,118,H. San Diego (118),,38.970535,1.279899,1867,https://eivissa.tib.org/web/cie/parades/-/parada/118
 169,1081,es Pins (1081),,39.026024,1.487161,2146,https://eivissa.tib.org/web/cie/parades/-/parada/1081
@@ -107,11 +126,13 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 174,115,H. Nautilus (115),,38.9674,1.295618,2144,https://eivissa.tib.org/web/cie/parades/-/parada/115
 175,114,H. Mar Amantis (114),,38.967407,1.297326,2034,https://eivissa.tib.org/web/cie/parades/-/parada/114
 176,113,H. Bergantín (113),,38.967896,1.301751,2113,https://eivissa.tib.org/web/cie/parades/-/parada/113
+177,1084,H. Coral (1084),,39.004246,1.579338,31,https://eivissa.tib.org/web/cie/parades/-/parada/1084
 178,112,es Pouet (112),,38.970318,1.304389,2035,https://eivissa.tib.org/web/cie/parades/-/parada/112
 179,127,sa Plana - Comte (127),,38.950497,1.256835,1879,https://eivissa.tib.org/web/cie/parades/-/parada/127
 180,1074,encreuament col·legi (1074),,39.031094,1.560242,2013,https://eivissa.tib.org/web/cie/parades/-/parada/1074
 181,126,es Cucó (126),,38.955643,1.271769,76,https://eivissa.tib.org/web/cie/parades/-/parada/126
 182,1073,encreuament col·legi (1073),,39.030815,1.560036,1915,https://eivissa.tib.org/web/cie/parades/-/parada/1073
+183,125,Sol y Mar (125),,38.96182,1.26491,76,https://eivissa.tib.org/web/cie/parades/-/parada/125
 184,1072,encreuament Portinatx (1072),,39.075817,1.504349,2027,https://eivissa.tib.org/web/cie/parades/-/parada/1072
 185,124,Port des Torrent (124),,38.963776,1.2691,76,https://eivissa.tib.org/web/cie/parades/-/parada/124
 186,123,Cala de Bou (123),,38.965355,1.276851,1765,https://eivissa.tib.org/web/cie/parades/-/parada/123
@@ -120,10 +141,13 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 192,139,Sant Agustí (139),,38.939392,1.290037,1904,https://eivissa.tib.org/web/cie/parades/-/parada/139
 194,141,Can Verger (141),,38.922653,1.286059,1854,https://eivissa.tib.org/web/cie/parades/-/parada/141
 195,140,Can Reialet (140),,38.92844,1.287288,1872,https://eivissa.tib.org/web/cie/parades/-/parada/140
+196,143,Es Pla (143),,38.9215,1.301594,1851,https://eivissa.tib.org/web/cie/parades/-/parada/143
 197,142,Sant Josep (142),,38.921715,1.293131,1669,https://eivissa.tib.org/web/cie/parades/-/parada/142
 199,128,Bar Stop (128),,38.949802,1.251615,1880,https://eivissa.tib.org/web/cie/parades/-/parada/128
 202,133,H. Cala Tarida (133),,38.942497,1.235333,61,https://eivissa.tib.org/web/cie/parades/-/parada/133
-203,132,Cala Corral (132),,38.94121,1.243294,61,https://eivissa.tib.org/web/cie/parades/-/parada/132
+203,132,urb. Cala Tarida (132),,38.94121,1.243294,61,https://eivissa.tib.org/web/cie/parades/-/parada/132
+204,135,Cala Bassa (135),,38.966198,1.242174,2003,https://eivissa.tib.org/web/cie/parades/-/parada/135
+205,134,Càmping Cala Bassa (134),,38.963722,1.243393,2120,https://eivissa.tib.org/web/cie/parades/-/parada/134
 206,152,Can Verdera (152),,38.896175,1.369659,1877,https://eivissa.tib.org/web/cie/parades/-/parada/152
 207,153,Can Manyà (153),,38.89823,1.379881,2086,https://eivissa.tib.org/web/cie/parades/-/parada/153
 208,154,Can Bellotera (154),,38.900074,1.389307,2055,https://eivissa.tib.org/web/cie/parades/-/parada/154
@@ -132,11 +156,12 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 211,157,Cas Tabaquet (157),,38.903484,1.406037,1988,https://eivissa.tib.org/web/cie/parades/-/parada/157
 212,158,Renault (158),,38.904144,1.409324,1760,https://eivissa.tib.org/web/cie/parades/-/parada/158
 213,159,SEAT (159),,38.904686,1.411732,1798,https://eivissa.tib.org/web/cie/parades/-/parada/159
+214,144,Can Pep Xica (144),,38.919518,1.30944,1987,https://eivissa.tib.org/web/cie/parades/-/parada/144
 215,145,Can Rempuixa (145),,38.90933,1.316142,2043,https://eivissa.tib.org/web/cie/parades/-/parada/145
 216,146,Can Puvil (146),,38.90052,1.323365,1677,https://eivissa.tib.org/web/cie/parades/-/parada/146
 217,147,sa Cova Santa (147),,38.897884,1.331341,1992,https://eivissa.tib.org/web/cie/parades/-/parada/147
 218,148,s'Aljub (148),,38.893677,1.339659,1725,https://eivissa.tib.org/web/cie/parades/-/parada/148
-219,149,"sa Casilla, Sant Antoni (149)",,38.89222,1.347337,1810,https://eivissa.tib.org/web/cie/parades/-/parada/149
+219,149,sa Casilla (149),,38.89222,1.347337,1810,https://eivissa.tib.org/web/cie/parades/-/parada/149
 220,150,Ca n'Andreu (150),,38.893272,1.35503,2171,https://eivissa.tib.org/web/cie/parades/-/parada/150
 221,151,es Mig Terç (151),,38.8952,1.36469,1721,https://eivissa.tib.org/web/cie/parades/-/parada/151
 222,171,La Ponderosa (171),,38.879787,1.371303,2136,https://eivissa.tib.org/web/cie/parades/-/parada/171
@@ -156,6 +181,8 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 236,164,IES Algarb (164),,38.89918,1.397567,2019,https://eivissa.tib.org/web/cie/parades/-/parada/164
 237,186,el Vivero de Jesus (186),,38.927097,1.443756,2175,https://eivissa.tib.org/web/cie/parades/-/parada/186
 238,187,Jesús (187),,38.93118,1.44995,1984,https://eivissa.tib.org/web/cie/parades/-/parada/187
+239,184,Can Cisterna (184),,38.927853,1.434981,70,https://eivissa.tib.org/web/cie/parades/-/parada/184
+240,185,Muebles la Fábrica (185),,38.925915,1.440592,2006,https://eivissa.tib.org/web/cie/parades/-/parada/185
 241,190,ses Torres Baixes (190),,38.920975,1.457725,1853,https://eivissa.tib.org/web/cie/parades/-/parada/190
 242,191,H. Victoria (191),,38.918938,1.462009,2008,https://eivissa.tib.org/web/cie/parades/-/parada/191
 243,188,Can Rimbau (188),,38.92826,1.452671,1665,https://eivissa.tib.org/web/cie/parades/-/parada/188
@@ -193,28 +220,50 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 277,193,Cap Martinet (193),,38.914165,1.469471,1882,https://eivissa.tib.org/web/cie/parades/-/parada/193
 278,1164,Xarraca (1164),,39.097256,1.498511,1667,https://eivissa.tib.org/web/cie/parades/-/parada/1164
 279,192,Aqualandia (192),,38.917236,1.469168,2119,https://eivissa.tib.org/web/cie/parades/-/parada/192
+280,1167,Cementeri (1167),,39.07494,1.515794,1805,https://eivissa.tib.org/web/cie/parades/-/parada/1167
 282,1166,sa Vilda Marge (1166),,39.08343,1.496367,1605,https://eivissa.tib.org/web/cie/parades/-/parada/1166
+284,1168,Coll De Morna (1168),,39.0742,1.527019,1676,https://eivissa.tib.org/web/cie/parades/-/parada/1168
 285,220,Can Porxo (220),,38.949085,1.488471,2054,https://eivissa.tib.org/web/cie/parades/-/parada/220
+286,1169,Can Joan Serra (1169),,39.07325,1.536957,2125,https://eivissa.tib.org/web/cie/parades/-/parada/1169
 287,221,Roca Llisa (221),,38.943993,1.489071,1927,https://eivissa.tib.org/web/cie/parades/-/parada/221
+288,1170,camí de s'Almànguena (1170),,39.074,1.54223,1609,https://eivissa.tib.org/web/cie/parades/-/parada/1170
 289,222,can Fornet (222),,38.94317,1.462485,2101,https://eivissa.tib.org/web/cie/parades/-/parada/222
+290,1171,Can Vicent d'en Toni Serra (1171),,39.075333,1.548678,1994,https://eivissa.tib.org/web/cie/parades/-/parada/1171
 291,223,es Pi (223),,38.9404,1.457687,2107,https://eivissa.tib.org/web/cie/parades/-/parada/223
+292,1172,Can Macià (1172),,39.076347,1.553056,2056,https://eivissa.tib.org/web/cie/parades/-/parada/1172
 293,216,Cala Llonga (216),,38.952755,1.517778,1727,https://eivissa.tib.org/web/cie/parades/-/parada/216
+294,1173,Can Lluquí (1173),,39.076935,1.558886,1961,https://eivissa.tib.org/web/cie/parades/-/parada/1173
 295,217,Can Clavos (217),,38.956974,1.445913,1684,https://eivissa.tib.org/web/cie/parades/-/parada/217
+296,1174,es pont de ca sa Iaia (1174),,39.07994,1.563267,1928,https://eivissa.tib.org/web/cie/parades/-/parada/1174
 297,218,sa Gravada (218),,38.955612,1.502747,1776,https://eivissa.tib.org/web/cie/parades/-/parada/218
+298,1175,Can Pere Marge (1175),,39.081364,1.567298,1901,https://eivissa.tib.org/web/cie/parades/-/parada/1175
 299,219,pont de sa Vinya (219),,38.95193,1.493448,2156,https://eivissa.tib.org/web/cie/parades/-/parada/219
+300,1176,sa Timbeta (1176),,39.080864,1.57417,2188,https://eivissa.tib.org/web/cie/parades/-/parada/1176
 301,212,Can Bassetes (212),,38.97754,1.514671,1612,https://eivissa.tib.org/web/cie/parades/-/parada/212
+302,1177,Can Francisco (1177),,39.078148,1.582224,2109,https://eivissa.tib.org/web/cie/parades/-/parada/1177
 303,213,urb. Valverde (213),,38.96875,1.512589,2108,https://eivissa.tib.org/web/cie/parades/-/parada/213
 304,214,encreuament Cala Llonga (214),,38.957348,1.511069,1887,https://eivissa.tib.org/web/cie/parades/-/parada/214
 305,215,Bar Madison (215),,38.955173,1.517597,2069,https://eivissa.tib.org/web/cie/parades/-/parada/215
+306,1180,Can Francisco (1180),,39.078213,1.582728,1979,https://eivissa.tib.org/web/cie/parades/-/parada/1180
 307,208,"C. del País Basc, 15 (208)",,38.9057,1.423461,2012,https://eivissa.tib.org/web/cie/parades/-/parada/208
+308,1181,sa Timbeta (1181),,39.08094,1.574151,2092,https://eivissa.tib.org/web/cie/parades/-/parada/1181
 309,209,Santa Eulària (209),,38.985985,1.533527,1750,https://eivissa.tib.org/web/cie/parades/-/parada/209
+310,1182,Can Pere Marge (1182),,39.081406,1.567201,2044,https://eivissa.tib.org/web/cie/parades/-/parada/1182
 311,210,urb. Siesta (210),,38.981327,1.523369,1950,https://eivissa.tib.org/web/cie/parades/-/parada/210
+312,1183,es pont de ca sa Iaia (1183),,39.08004,1.563323,1797,https://eivissa.tib.org/web/cie/parades/-/parada/1183
 313,211,Bar sa Font (211),,38.97905,1.517779,2064,https://eivissa.tib.org/web/cie/parades/-/parada/211
+314,1187,camí de s'Almànguena (1187),,39.073986,1.542686,1644,https://eivissa.tib.org/web/cie/parades/-/parada/1187
 315,239,Bassa Roja (239),,38.98381,1.370148,1745,https://eivissa.tib.org/web/cie/parades/-/parada/239
+316,1186,Can Vicent d'en Toni Serra (1186),,39.07536,1.548601,1926,https://eivissa.tib.org/web/cie/parades/-/parada/1186
 317,238,Can Tixedo (238),,38.993572,1.361771,1866,https://eivissa.tib.org/web/cie/parades/-/parada/238
+318,1185,Can Macià (1185),,39.076405,1.553163,2032,https://eivissa.tib.org/web/cie/parades/-/parada/1185
 319,237,Can Casa Llarga (237),,39.0131,1.343349,2072,https://eivissa.tib.org/web/cie/parades/-/parada/237
-321,236,Can Ferre (236),,39.030197,1.334814,1674,https://eivissa.tib.org/web/cie/parades/-/parada/236
+320,1184,Can Lluquí (1184),,39.07712,1.559126,2025,https://eivissa.tib.org/web/cie/parades/-/parada/1184
+321,236,Cas Ferrer (236),,39.030197,1.334814,1674,https://eivissa.tib.org/web/cie/parades/-/parada/236
 322,235,Santa Agnès (235),,39.03818,1.336065,1702,https://eivissa.tib.org/web/cie/parades/-/parada/235
+323,1190,Cementeri (1190),,39.07501,1.515858,1762,https://eivissa.tib.org/web/cie/parades/-/parada/1190
+325,1189,Coll De Morna (1189),,39.07426,1.527049,2186,https://eivissa.tib.org/web/cie/parades/-/parada/1189
+327,1188,Can Joan Serra (1188),,39.0733,1.53694,1618,https://eivissa.tib.org/web/cie/parades/-/parada/1188
 335,225,Cala Vedella (225),,38.914066,1.225201,69,https://eivissa.tib.org/web/cie/parades/-/parada/225
 336,224,Ca Nostra (224),,38.93732,1.45385,1799,https://eivissa.tib.org/web/cie/parades/-/parada/224
 337,254,Club de Campo (254),,38.90262,1.388518,1592,https://eivissa.tib.org/web/cie/parades/-/parada/254
@@ -223,7 +272,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 340,253,es Torrent (253),,38.901684,1.385615,1596,https://eivissa.tib.org/web/cie/parades/-/parada/253
 341,250,Sa Compra (250),,38.89336,1.390172,1701,https://eivissa.tib.org/web/cie/parades/-/parada/250
 342,251,Can Guerxo (251),,38.895153,1.386514,1860,https://eivissa.tib.org/web/cie/parades/-/parada/251
-344,249,"Sant Jordi, Plaça de l'Església (249)",,38.891197,1.394717,1724,https://eivissa.tib.org/web/cie/parades/-/parada/249
+344,249,"Sant Jordi, Plaça de l'Església (249)",,38.89137,1.395471,1724,https://eivissa.tib.org/web/cie/parades/-/parada/249
 345,246,Sant Miquel (246),,39.055256,1.437358,1629,https://eivissa.tib.org/web/cie/parades/-/parada/246
 346,244,Can Mariano de sa Cova (244),,39.03243,1.431222,2163,https://eivissa.tib.org/web/cie/parades/-/parada/244
 347,242,Cuatre Cantons (242),,38.963634,1.396487,1859,https://eivissa.tib.org/web/cie/parades/-/parada/242
@@ -247,6 +296,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 371,260,Bar Isidro (260),,38.911114,1.403428,1770,https://eivissa.tib.org/web/cie/parades/-/parada/260
 372,261,Can Pereira (261),,38.911522,1.406439,2030,https://eivissa.tib.org/web/cie/parades/-/parada/261
 373,266,es Cubells (266),,38.881626,1.2719,1962,https://eivissa.tib.org/web/cie/parades/-/parada/266
+374,267,CS Vila (267),,38.917107,1.446278,1813,https://eivissa.tib.org/web/cie/parades/-/parada/267
 376,265,CS es Viver (265),,38.90471,1.416355,2071,https://eivissa.tib.org/web/cie/parades/-/parada/265
 377,270,Piscines Can Misses (270),,38.913754,1.417159,1666,https://eivissa.tib.org/web/cie/parades/-/parada/270
 378,271,s'Espartar (271),,38.931446,1.258911,1837,https://eivissa.tib.org/web/cie/parades/-/parada/271
@@ -255,10 +305,12 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 383,288,Dalt Vila (288),,38.907616,1.435646,12371,https://eivissa.tib.org/web/cie/parades/-/parada/288
 389,294,Ronda ses Paisses (294),,38.96837,1.310362,2135,https://eivissa.tib.org/web/cie/parades/-/parada/294
 391,297,Ibiza Gran Hotel (297),,38.918003,1.442685,1838,https://eivissa.tib.org/web/cie/parades/-/parada/297
-393,299,C. de Montblanc (299),,38.892254,1.3956,1585,https://eivissa.tib.org/web/cie/parades/-/parada/299
-395,301,Can Sord (301),,38.896824,1.391722,1602,https://eivissa.tib.org/web/cie/parades/-/parada/301
+393,299,C. de Montblanc (299),,38.89288,1.39504,1585,https://eivissa.tib.org/web/cie/parades/-/parada/299
+395,301,Can Sord (301),,38.89686,1.39177,1602,https://eivissa.tib.org/web/cie/parades/-/parada/301
+398,5182,pont de Sant Carles (5182),,39.077255,1.58695,2176,https://eivissa.tib.org/web/cie/parades/-/parada/5182
 401,5135,Es Caliu (5135),,38.992958,1.486034,1692,https://eivissa.tib.org/web/cie/parades/-/parada/5135
 402,5134,Can Reiet (5134),,38.986053,1.478264,2068,https://eivissa.tib.org/web/cie/parades/-/parada/5134
+403,5127,pont de Sant Carles (5127),,39.077187,1.586966,1958,https://eivissa.tib.org/web/cie/parades/-/parada/5127
 404,5146,ses Arcades (5146),,39.067127,1.494579,1620,https://eivissa.tib.org/web/cie/parades/-/parada/5146
 405,410,Edén (410),,38.96638,1.310381,1746,https://eivissa.tib.org/web/cie/parades/-/parada/410
 406,411,Racó des Sol (411),,38.970295,1.307319,1960,https://eivissa.tib.org/web/cie/parades/-/parada/411
@@ -266,13 +318,18 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 408,409,H. Puchet (409),,38.970837,1.309805,1910,https://eivissa.tib.org/web/cie/parades/-/parada/409
 409,412,es Pouet (412),,38.970173,1.304258,1999,https://eivissa.tib.org/web/cie/parades/-/parada/412
 410,413,H. Bergantín (413),,38.967697,1.301729,1759,https://eivissa.tib.org/web/cie/parades/-/parada/413
+415,404,H. Abrat (404),,38.986435,1.297625,2080,https://eivissa.tib.org/web/cie/parades/-/parada/404
+416,405,Cala Gració (405),,38.989326,1.293029,2065,https://eivissa.tib.org/web/cie/parades/-/parada/405
 417,440,Can Reialet (440),,38.928577,1.287414,1753,https://eivissa.tib.org/web/cie/parades/-/parada/440
 418,441,Can Verger (441),,38.9227,1.286147,1815,https://eivissa.tib.org/web/cie/parades/-/parada/441
 419,442,Sant Josep (442),,38.921764,1.292535,2124,https://eivissa.tib.org/web/cie/parades/-/parada/442
+420,443,Es Pla (443),,38.921585,1.301057,1800,https://eivissa.tib.org/web/cie/parades/-/parada/443
+421,444,Can Pep Xica (444),,38.919476,1.309599,1708,https://eivissa.tib.org/web/cie/parades/-/parada/444
 422,445,Can Rempuixa (445),,38.911163,1.315885,1856,https://eivissa.tib.org/web/cie/parades/-/parada/445
 423,446,Can Puvil (446),,38.900852,1.321794,1598,https://eivissa.tib.org/web/cie/parades/-/parada/446
 424,447,sa Cova Santa (447),,38.8979,1.33163,1974,https://eivissa.tib.org/web/cie/parades/-/parada/447
-425,432,Cala Corral (432),,38.941113,1.243253,61,https://eivissa.tib.org/web/cie/parades/-/parada/432
+425,432,urb. Cala Tarida (432),,38.941113,1.243253,61,https://eivissa.tib.org/web/cie/parades/-/parada/432
+426,434,Càmping Cala Bassa (434),,38.96337,1.243406,1606,https://eivissa.tib.org/web/cie/parades/-/parada/434
 430,439,Sant Agustí (439),,38.939632,1.290182,2191,https://eivissa.tib.org/web/cie/parades/-/parada/439
 431,424,Port des Torrent (424),,38.96387,1.269369,76,https://eivissa.tib.org/web/cie/parades/-/parada/424
 432,427,sa Plana - Comte (427),,38.950455,1.256983,1658,https://eivissa.tib.org/web/cie/parades/-/parada/427
@@ -302,7 +359,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 462,452,Can Verdera (452),,38.89632,1.369864,1893,https://eivissa.tib.org/web/cie/parades/-/parada/452
 463,451,es Mig Terç (451),,38.895367,1.36508,1711,https://eivissa.tib.org/web/cie/parades/-/parada/451
 464,450,Ca n'Andreu (450),,38.893414,1.355108,1613,https://eivissa.tib.org/web/cie/parades/-/parada/450
-465,449,"sa Casilla, Sant Antoni (449)",,38.892307,1.347584,1641,https://eivissa.tib.org/web/cie/parades/-/parada/449
+465,449,sa Casilla (449),,38.892307,1.347584,1641,https://eivissa.tib.org/web/cie/parades/-/parada/449
 466,448,s'Aljub (448),,38.893837,1.339392,1824,https://eivissa.tib.org/web/cie/parades/-/parada/448
 467,510,urb. Siesta (510),,38.981354,1.52314,1675,https://eivissa.tib.org/web/cie/parades/-/parada/510
 468,511,Bar sa Font (511),,38.97905,1.517513,1816,https://eivissa.tib.org/web/cie/parades/-/parada/511
@@ -324,9 +381,13 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 484,488,Can Rimbau (488),,38.928432,1.452671,1769,https://eivissa.tib.org/web/cie/parades/-/parada/488
 485,491,H. Victoria (491),,38.919598,1.461078,1617,https://eivissa.tib.org/web/cie/parades/-/parada/491
 486,490,ses Torres Baixes (490),,38.921,1.457865,2190,https://eivissa.tib.org/web/cie/parades/-/parada/490
+487,485,Muebles la Fábrica (485),,38.92606,1.440543,1996,https://eivissa.tib.org/web/cie/parades/-/parada/485
+488,484,Can Cisterna (484),,38.927895,1.435193,70,https://eivissa.tib.org/web/cie/parades/-/parada/484
 489,487,Jesús (487),,38.931213,1.450013,1744,https://eivissa.tib.org/web/cie/parades/-/parada/487
 490,486,el Vivero de Jesus (486),,38.927605,1.444652,1814,https://eivissa.tib.org/web/cie/parades/-/parada/486
 491,481,Fusteria (481),,38.927044,1.429812,70,https://eivissa.tib.org/web/cie/parades/-/parada/481
+492,480,es Raspallar (480),,38.92316,1.429445,1990,https://eivissa.tib.org/web/cie/parades/-/parada/480
+493,483,Ciudad Jardín (483),,38.928616,1.432563,70,https://eivissa.tib.org/web/cie/parades/-/parada/483
 494,482,Marí Mayans (482),,38.928722,1.429745,70,https://eivissa.tib.org/web/cie/parades/-/parada/482
 495,558,Can Cifre (558),,38.904697,1.402093,1679,https://eivissa.tib.org/web/cie/parades/-/parada/558
 496,559,Can Fita (559),,38.909374,1.402248,1619,https://eivissa.tib.org/web/cie/parades/-/parada/559
@@ -334,8 +395,6 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 498,557,"Riu Minyo, 26 (557)",,38.904804,1.398542,1980,https://eivissa.tib.org/web/cie/parades/-/parada/557
 499,554,Club de Campo (554),,38.902664,1.388487,1803,https://eivissa.tib.org/web/cie/parades/-/parada/554
 500,555,Bar sa Carroca (555),,38.90397,1.392348,1699,https://eivissa.tib.org/web/cie/parades/-/parada/555
-501,552,Can Noguera (552),,38.89989,1.382705,1586,https://eivissa.tib.org/web/cie/parades/-/parada/552
-502,553,es Torrent (553),,38.90165,1.385601,1604,https://eivissa.tib.org/web/cie/parades/-/parada/553
 503,563,CS can Misses (563),,38.915817,1.417561,12340,https://eivissa.tib.org/web/cie/parades/-/parada/563
 504,562,pou de cas Mut (562),,38.91028,1.407687,1976,https://eivissa.tib.org/web/cie/parades/-/parada/562
 505,561,Can Pereira (561),,38.911533,1.406347,1635,https://eivissa.tib.org/web/cie/parades/-/parada/561
@@ -370,7 +429,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 545,543,s'Hort Nou 1 (543),,38.978626,1.414918,1722,https://eivissa.tib.org/web/cie/parades/-/parada/543
 546,542,Cuatre Cantons (542),,38.963554,1.396505,1828,https://eivissa.tib.org/web/cie/parades/-/parada/542
 547,537,Can Casa Llarga (537),,39.013046,1.343346,1680,https://eivissa.tib.org/web/cie/parades/-/parada/537
-548,536,Can Ferrer (536),,39.030296,1.334739,1944,https://eivissa.tib.org/web/cie/parades/-/parada/536
+548,536,Cas Ferrer (536),,39.030296,1.334739,1944,https://eivissa.tib.org/web/cie/parades/-/parada/536
 549,539,Bassa Roja (539),,38.98394,1.370052,1748,https://eivissa.tib.org/web/cie/parades/-/parada/539
 550,538,Can Tixedo (538),,38.99335,1.361908,1956,https://eivissa.tib.org/web/cie/parades/-/parada/538
 551,610,Can Caus (610),,38.986565,1.437403,1934,https://eivissa.tib.org/web/cie/parades/-/parada/610
@@ -425,6 +484,9 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 626,5102,Can Reiet (5102),,38.98627,1.478894,1796,https://eivissa.tib.org/web/cie/parades/-/parada/5102
 627,5103,Es Caliu (5103),,38.99294,1.486117,2112,https://eivissa.tib.org/web/cie/parades/-/parada/5103
 628,5090,Sant Rafel 1 (5090),,38.961403,1.399832,1757,https://eivissa.tib.org/web/cie/parades/-/parada/5090
+629,1017,Cala Martina (1017),,38.991825,1.57519,2177,https://eivissa.tib.org/web/cie/parades/-/parada/1017
+630,1018,Cala Martina (1018),,38.991856,1.575244,2115,https://eivissa.tib.org/web/cie/parades/-/parada/1018
+631,1019,Cala Nova (1019),,39.005814,1.579303,31,https://eivissa.tib.org/web/cie/parades/-/parada/1019
 632,1020,Cala Pada (1020),,38.99821,1.559094,1804,https://eivissa.tib.org/web/cie/parades/-/parada/1020
 633,1021,Cala Pada (1021),,38.998146,1.558852,1793,https://eivissa.tib.org/web/cie/parades/-/parada/1021
 634,1022,Ca n'Andreuet (1022),,38.996803,1.544009,2103,https://eivissa.tib.org/web/cie/parades/-/parada/1022
@@ -437,7 +499,9 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 641,1013,Ca Na Vica (1013),,38.98146,1.483311,1648,https://eivissa.tib.org/web/cie/parades/-/parada/1013
 642,1014,Ca Na Vica (1014),,38.98158,1.483276,1624,https://eivissa.tib.org/web/cie/parades/-/parada/1014
 644,1002,H. Club Siesta (1002),,38.977833,1.526751,2023,https://eivissa.tib.org/web/cie/parades/-/parada/1002
+645,1005,Bar Extremadura (1005),,38.99731,1.578594,2145,https://eivissa.tib.org/web/cie/parades/-/parada/1005
 646,1007,Ca na Marca (1007),,38.97615,1.44198,2189,https://eivissa.tib.org/web/cie/parades/-/parada/1007
+647,1006,Bar Extremadura (1006),,38.997242,1.578457,2129,https://eivissa.tib.org/web/cie/parades/-/parada/1006
 656,6016,CETIS (6016),,38.9119,1.424784,12340,https://eivissa.tib.org/web/cie/parades/-/parada/6016
 657,286,sa Carrossa (286),,38.907932,1.437579,12371,https://eivissa.tib.org/web/cie/parades/-/parada/286
 663,6014,camí des Fil (6014),,39.006676,1.488202,2194,https://eivissa.tib.org/web/cie/parades/-/parada/6014
@@ -506,21 +570,32 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 780,6035,Raspallar (escolar) (6035),,38.92335,1.429611,12280,https://eivissa.tib.org/web/cie/parades/-/parada/6035
 1805,6082,AV Cala de Bou (6082),,38.96842,1.273444,35,https://eivissa.tib.org/web/cie/parades/-/parada/6082
 781,6036,Port (escolar) (6036),,38.91107,1.43451,12281,https://eivissa.tib.org/web/cie/parades/-/parada/6036
+1808,6083,plaça de l’església des Puig d’en Valls (6083),,38.92775,1.433277,70,https://eivissa.tib.org/web/cie/parades/-/parada/6083
 1809,6084,encreuament Cala d’Hort (6084),,38.883507,1.233537,59,https://eivissa.tib.org/web/cie/parades/-/parada/6084
 805,8044,"Av. de Sant Agustí, 16 (8044)",,38.965576,1.299185,12303,https://eivissa.tib.org/web/cie/parades/-/parada/8044
 806,9044,"Av. de Sant Agustí, 55 (9044)",,38.965744,1.296954,12304,https://eivissa.tib.org/web/cie/parades/-/parada/9044
 807,8045,Sant Josep (8045),,38.92169,1.293262,12305,https://eivissa.tib.org/web/cie/parades/-/parada/8045
+9000,7077,Sant Carles (7077),,39.0333,1.56514,12657,https://eivissa.tib.org/web/cie/parades/-/parada/7077
 808,9045,Sant Josep (9045),,38.921844,1.29272,12306,https://eivissa.tib.org/web/cie/parades/-/parada/9045
+9001,6091,Poliesportiu Sant Joan (6091),,39.058937,1.463008,86,https://eivissa.tib.org/web/cie/parades/-/parada/6091
 809,8046,Sant Jordi (8046),,38.89144,1.397096,12307,https://eivissa.tib.org/web/cie/parades/-/parada/8046
+9002,1132,sa Cala (1132),,39.07576,1.590254,2057,https://eivissa.tib.org/web/cie/parades/-/parada/1132
 815,6038,encreuament Cala Tarida (6038),,38.92203,1.2720515,12311,https://eivissa.tib.org/web/cie/parades/-/parada/6038
 816,6039,Can Pou (6039),,38.903973,1.2338351,12312,https://eivissa.tib.org/web/cie/parades/-/parada/6039
 817,6040,Vedella poble (6040),,38.91153,1.222334,69,https://eivissa.tib.org/web/cie/parades/-/parada/6040
 818,6041,Can Bernat Xico (6041),,38.913055,1.2422252,12314,https://eivissa.tib.org/web/cie/parades/-/parada/6041
+824,6042,Sortida Port (6042),c/Lluís Tur i Palau,38.91036,1.435673,12317,https://eivissa.tib.org/web/cie/parades/-/parada/6042
+825,6043,es Martell (6043),"c/Andenes, 1",38.91001,1.437837,12318,https://eivissa.tib.org/web/cie/parades/-/parada/6043
+826,6044,Pl. sa Riba (6044),,38.90919,1.440724,12319,https://eivissa.tib.org/web/cie/parades/-/parada/6044
 827,6045,Can Roques Caraveres (6045),,38.905388,1.285163,12320,https://eivissa.tib.org/web/cie/parades/-/parada/6045
 828,7045,Can Roques Caraveres (7045),,38.905468,1.285299,12322,https://eivissa.tib.org/web/cie/parades/-/parada/7045
 829,6046,Can Mestre (6046),,38.890575,1.279252,12321,https://eivissa.tib.org/web/cie/parades/-/parada/6046
 830,7046,Can Mestre (7046),,38.89025,1.279199,12323,https://eivissa.tib.org/web/cie/parades/-/parada/7046
+834,6047,Es Cucó (rotonda) (6047),,38.955338,1.2732276,76,https://eivissa.tib.org/web/cie/parades/-/parada/6047
 835,7047,Es Cucó (rotonda) (7047),,38.956554,1.27217,76,https://eivissa.tib.org/web/cie/parades/-/parada/7047
+836,6048,Can Mariano Mestret (6048),,38.99164,1.296833,12327,https://eivissa.tib.org/web/cie/parades/-/parada/6048
+837,7048,Can Mariano Mestret (7048),,38.991787,1.296867,12328,https://eivissa.tib.org/web/cie/parades/-/parada/7048
+849,6049,"Av. d'Isidor Macabich, 4 (6049)",,38.910618,1.430843,12340,https://eivissa.tib.org/web/cie/parades/-/parada/6049
 850,6050,Policia Nacional (6050),"Av. de la Pau, s/n",38.90854,1.42155,12340,https://eivissa.tib.org/web/cie/parades/-/parada/6050
 851,7050,Policia Nacional (7050),"Av. de la Pau, s/n",38.908524,1.421848,12340,https://eivissa.tib.org/web/cie/parades/-/parada/7050
 856,6051,Hospital Can Misses (6051),,38.914673,1.42091,12340,https://eivissa.tib.org/web/cie/parades/-/parada/6051
@@ -533,9 +608,10 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 887,6056,Comandància de Marina (6056),,38.916527,1.438202,12340,https://eivissa.tib.org/web/cie/parades/-/parada/6056
 910,6059,Teatre Pereira (6059),,38.90905,1.435053,12349,https://eivissa.tib.org/web/cie/parades/-/parada/6059
 911,6060,"C. de Pere Sala, 3 (6060)",,38.90891,1.434663,12350,https://eivissa.tib.org/web/cie/parades/-/parada/6060
-912,6061,Multicines (6061),,38.911793,1.421614,12351,https://eivissa.tib.org/web/cie/parades/-/parada/6061
+912,6061,Aparcament Multicines (6061),,38.911793,1.421614,12351,https://eivissa.tib.org/web/cie/parades/-/parada/6061
 913,6062,Centre de Salut (6062),,38.902534,1.412756,12352,https://eivissa.tib.org/web/cie/parades/-/parada/6062
 914,6063,cementeri Vell (6063),,38.90337,1.417975,12353,https://eivissa.tib.org/web/cie/parades/-/parada/6063
+918,6064,Aeroport (6064),,38.876244,1.367009,12354,https://eivissa.tib.org/web/cie/parades/-/parada/6064
 919,6065,Residència Can Raspalls (6065),,38.900368,1.401261,12355,https://eivissa.tib.org/web/cie/parades/-/parada/6065
 920,7065,Residència Can Raspalls (7065),,38.899998,1.401297,12356,https://eivissa.tib.org/web/cie/parades/-/parada/7065
 921,6066,Can Raspalls (6066),,38.89684,1.401825,12357,https://eivissa.tib.org/web/cie/parades/-/parada/6066

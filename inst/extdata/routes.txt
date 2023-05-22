@@ -1,29 +1,38 @@
 route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-1998,41,02,Port des Torrent > Sant Antoni,,3,https://eivissa.tib.org/web/cie/autobus/linia/02,ea2423,ffffff
-1997,42,03,Sant Antoni > Sant Rafel > Eivissa,,3,https://eivissa.tib.org/web/cie/autobus/linia/03,ea2423,ffffff
+1999,41,01,Sant Antoni < > Cala Gració < > Stella Maris,,3,https://eivissa.tib.org/web/cie/autobus/linia/01,ea2423,ffffff
+1998,41,02,Port des Torrent  < > Sant Antoni,,3,https://eivissa.tib.org/web/cie/autobus/linia/02,ea2423,ffffff
+1997,42,03,Sant Antoni < > Sant Rafel < > Eivissa,,3,https://eivissa.tib.org/web/cie/autobus/linia/03,ea2423,ffffff
 1994,42,03_1,Can Bonet > Ses Païsses > Sant Antoni > Can Coix,,3,https://eivissa.tib.org/web/cie/autobus/linia/03_1,ea2423,ffffff
+2017,41,05,Cala Tarida < > Sant Antoni,,3,https://eivissa.tib.org/web/cie/autobus/linia/05,ea2423,ffffff
+2015,41,07,Cala Bassa  < > Sant Antoni,,3,https://eivissa.tib.org/web/cie/autobus/linia/07,ea2423,ffffff
 2012,41,08,Sant Antoni > Sant Josep > Eivissa,,3,https://eivissa.tib.org/web/cie/autobus/linia/08,ea2423,ffffff
+2027,41,09,Sant Antoni < > Sant Josep < > Aeroport,,3,https://eivissa.tib.org/web/cie/autobus/linia/09,ea2423,ffffff
 1979,41,10,Eivissa > Sant Jordi > Aeroport,,3,https://eivissa.tib.org/web/cie/autobus/linia/10,ea2423,ffffff
-1976,41,11,Eivissa > Sant Jordi > Ses Salines,,3,https://eivissa.tib.org/web/cie/autobus/linia/11,ea2423,ffffff
-1990,41,12A,Eivissa > Puig d'en Valls > Jesús> Eivissa,,3,https://eivissa.tib.org/web/cie/autobus/linia/12A,ea2423,ffffff
+211,41,10E,Aeroport Express,,3,https://eivissa.tib.org/web/cie/autobus/linia/10E,ea2423,ffffff
+1976,41,11,Eivissa  < > Sant Jordi < > Ses Salines,,3,https://eivissa.tib.org/web/cie/autobus/linia/11,ea2423,ffffff
+1990,41,12A,Eivissa  < > Puig d'en Valls < > Jesús < > Eivissa,,3,https://eivissa.tib.org/web/cie/autobus/linia/12A,ea2423,ffffff
 1991,41,12B,Eivissa > Jesús > Puig d'en Valls > Eivissa,,3,https://eivissa.tib.org/web/cie/autobus/linia/12B,ea2423,ffffff
-1978,39,13,Santa Eulària > Eivissa,,3,https://eivissa.tib.org/web/cie/autobus/linia/13,ea2423,ffffff
+1978,39,13,Santa Eulària < > Eivissa,,3,https://eivissa.tib.org/web/cie/autobus/linia/13,ea2423,ffffff
 1977,41,14, Eivissa > Platja d'en Bossa,,3,https://eivissa.tib.org/web/cie/autobus/linia/14,ea2423,ffffff
 1992,41,15, Eivissa > Jesús > Cala Llonga,,3,https://eivissa.tib.org/web/cie/autobus/linia/15,ea2423,ffffff
-1993,39,16,Santa Eulària > Las Dalias > Sant Carles,,3,https://eivissa.tib.org/web/cie/autobus/linia/16,ea2423,ffffff
+1993,39,16,Santa Eulària < > Las Dalias < > Sant Carles,,3,https://eivissa.tib.org/web/cie/autobus/linia/16,ea2423,ffffff
+1984,39,16B,Es Figueral <> Sant Carles <> Santa Eulària,,3,https://eivissa.tib.org/web/cie/autobus/linia/16B,ea2423,ffffff
 1995,39,17,Eularibus: Siesta > Can Guasch > Santa Eulària > Cas Capità > Can Frígoles > Santa Eulària > Can Guasch > Siesta,,3,https://eivissa.tib.org/web/cie/autobus/linia/17,ea2423,ffffff
-1987,39,18A,Es Canar > Santa Eulària,,3,https://eivissa.tib.org/web/cie/autobus/linia/18A,ea2423,ffffff
-1989,39,19,Santa Eulària > Santa Gertrudis > Sant Antoni,,3,https://eivissa.tib.org/web/cie/autobus/linia/19,ea2423,ffffff
-2005,39,20A,Eivissa > Sant Llorenç > Sant Joan > Portinatx,,3,https://eivissa.tib.org/web/cie/autobus/linia/20A,ea2423,ffffff
-2011,40,25A,Eivissa > Santa Gertrudis > Sant Mateu - Sant Miquel > Port de Sant Miquel,,3,https://eivissa.tib.org/web/cie/autobus/linia/25A,ea2423,ffffff
+1987,39,18A,Es Canar < > Santa Eulària,,3,https://eivissa.tib.org/web/cie/autobus/linia/18A,ea2423,ffffff
+1989,39,19,Santa Eulària <> Santa Gertrudis <> Sant Rafel <>Sant Antoni,,3,https://eivissa.tib.org/web/cie/autobus/linia/19,ea2423,ffffff
+2005,39,20A,Eivissa <> Sant Llorenç <> Sant Joan <> Portinatx,,3,https://eivissa.tib.org/web/cie/autobus/linia/20A,ea2423,ffffff
+2000,39,20B,Sant Joan > Cala Sant Vicent,,3,https://eivissa.tib.org/web/cie/autobus/linia/20B,ea2423,ffffff
+2004,39,24,Cala nova < > es Canar < > Santa Eulària < > Aeroport,,3,https://eivissa.tib.org/web/cie/autobus/linia/24,ea2423,ffffff
+2011,40,25A,Eivissa <> Santa Gertrudis <> Sant Mateu / Sant Miquel <> Port de Sant Miquel,,3,https://eivissa.tib.org/web/cie/autobus/linia/25A,ea2423,ffffff
+3144,39,27,Sant Joan <> Sant Miquel <> Sant Mateu <> (Santa Agnés) <> Sant Antoni,,3,https://eivissa.tib.org/web/cie/autobus/linia/27,ea2423,ffffff
 2044,41,30,Sant Antoni > Santa Agnès > Eivissa,,3,https://eivissa.tib.org/web/cie/autobus/linia/30,ea2423,ffffff
 1981,41,35,Eivissa > Can Misses > sa Carroca > Sant Jordi,,3,https://eivissa.tib.org/web/cie/autobus/linia/35,ea2423,ffffff
 2008,41,41,Santa Eulària > Cala Llonga,,3,https://eivissa.tib.org/web/cie/autobus/linia/41,ea2423,ffffff
 205,41,42B,Sant Josep > es Cubells > Cala Vedella > Cala Tarida,,3,https://eivissa.tib.org/web/cie/autobus/linia/42B,ea2423,ffffff
-2003,41,45,Vara de Rey > Dalt Vila > CETIS > Can Misses > Ca n'Escandell > Cas Serres > Vara de Rey,,3,https://eivissa.tib.org/web/cie/autobus/linia/45,ea2423,ffffff
+2003,41,45,Vara de Rey > Dalt Vila / Talamanca > CETIS > Can Misses > Ca n'Escandell > Cas Serres > Vara de Rey,,3,https://eivissa.tib.org/web/cie/autobus/linia/45,ea2423,ffffff
 191,41,50,Cas Dominguets > Es Gorg > Puig d'en Valls > Cas Dominguets,,3,https://eivissa.tib.org/web/cie/autobus/linia/50,ea2423,ffffff
 208,42,N03, Nit Bus  Sant Antoni > Sant Rafel > Eivissa,,3,https://eivissa.tib.org/web/cie/autobus/linia/N03,ea2423,ffffff
 196,41,N08,Nit Bus Sant Antoni > Cala Bou > Sant Josep > Sant Jordi >Eivissa,,3,https://eivissa.tib.org/web/cie/autobus/linia/N08,ea2423,ffffff
 209,39,N13,Nit Bus Santa Eulària > Eivissa,,3,https://eivissa.tib.org/web/cie/autobus/linia/N13,ea2423,ffffff
-192,39,N20,Nit Bus Eivissa > Sant Joan,,3,https://eivissa.tib.org/web/cie/autobus/linia/N20,ea2423,ffffff
+192,39,N20,Nit Bus Eivissa <> Sant Joan,,3,https://eivissa.tib.org/web/cie/autobus/linia/N20,ea2423,ffffff
 

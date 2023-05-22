@@ -1,12 +1,12 @@
-#' @title Devuelve los puntos de una ruta para una ruta y destino
+#' @title Devuelve el tiempo restante de la parada seleccionada
 #'
-#' @description Devuelve los puntos de una ruta para una ruta y destino
+#' @description Devuelve el tiempo restante de la parada seleccionada
 #'
-#' @param ruta,destino
+#' @param parada
 #'
 #' @return json
 #'
-#' @examples  puntos_ruta("13 Santa Eulària > Eivissa","Eivissa/CETIS")
+#' @examples  tiempo_por_parada()
 #'
 #' @import httr
 #' jsonlite
@@ -15,10 +15,9 @@
 #'
 #' @export
 
-puntos_ruta <- function(ruta,destino){
+tiempo_por_parada <- function(parada){
 
-  RUTA <- as.character(ruta)
-  DESTINO <- as.character(destino)
+  PARADA <- as.character(parada)
 
   ficheros_en_ruta <- list.files(system.file('extdata', package = 'datosBusIbiza'), full.names = TRUE)
 
@@ -35,15 +34,9 @@ puntos_ruta <- function(ruta,destino){
   df_rutas$NOMBRE_RUTAS <- paste(df_rutas$route_short_name,df_rutas$route_long_name, sep = " ")
 
 
-  #------------------------------------------------------------------------------------
-  #------------------------------------------------------------------------------------
-  # RECOGIDA DE TIEMPOS PARA LISTADO
-  #------------------------------------------------------------------------------------
-  #------------------------------------------------------------------------------------
-
-  id_ruta <- df_rutas$route_id[df_rutas$NOMBRE_RUTAS == RUTA]
-  viaje <- df_viajes[df_viajes$route_id == id_ruta & df_viajes$trip_headsign == DESTINO,]
-
+  id_parada <- df_paradas$stop_id[match(PARADA,df_paradas$stop_name)]
+  tiempos_parada <- df_tiempo_paradas[which(df_tiempo_paradas$stop_id %in% id_parada),]
+  viajes_parada <- df_viajes[which(df_viajes$trip_id %in% tiempos_parada$trip_id),]
 
   # Filtro por día de la semana ---
   fecha <- Sys.Date()
@@ -59,26 +52,44 @@ puntos_ruta <- function(ruta,destino){
   calendario <- df_calendario[which(df_calendario$service_id %in% viajes_parada$service_id),]
   pos_dia <- match(dia_semana_actual,colnames(calendario))
   id_servicio <- calendario$service_id[calendario[,pos_dia] == 1]
+
   # ---
-  viaje <- viaje[which(viaje$service_id %in% id_servicio),]
+  viajes_parada <- viajes_parada[which(viajes_parada$service_id %in% id_servicio),]
+  rutas_parada <- df_rutas[which(df_rutas$route_id %in% viajes_parada$route_id),]
 
 
-  #------------------------------------------------------------------------------------
-  #------------------------------------------------------------------------------------
-  # RECOGIDA DE TIEMPOS PARA MAPA
-  #------------------------------------------------------------------------------------
-  #------------------------------------------------------------------------------------
-  shape_id <- unique(viaje$shape_id)
-  DF_RUTA <- df_sombras[df_sombras$shape_id == shape_id,]
-  DF_RUTA <- DF_RUTA[,c(2,3,4)]
+  # Generación de DF
+  SENTIDO <- viajes_parada$trip_headsign
+  RUTA <- c()
+  HORARIO <- c()
+  for(i in 1:length(SENTIDO)){
+    RUTA <- c(RUTA, df_rutas$NOMBRE_RUTAS[match(viajes_parada$route_id[i],df_rutas$route_id)])
+    HORARIO <- c(HORARIO, tiempos_parada$arrival_time[match(viajes_parada$trip_id[i],tiempos_parada$trip_id)])
+  }
+  PARADA <- rep(PARADA, length(SENTIDO))
 
+  df_tiempos_parada <- data.frame(PARADA, RUTA, SENTIDO, HORARIO, stringsAsFactors = FALSE)
+  df_tiempos_parada <- df_tiempos_parada[order(df_tiempos_parada$HORARIO),]
 
-  #------------------------------------------------------------------------------------
-  #------------------------------------------------------------------------------------
-  # GENERACIÓN JSON
-  #------------------------------------------------------------------------------------
-  #------------------------------------------------------------------------------------
-  json_rutas <- toJSON(DF_RUTA)
+  tiempos <- df_tiempos_parada
+  tiempos$HORARIO <- as.POSIXct(tiempos$HORARIO, format = '%H:%M', tz = 'CET')
+  tiempos$diferencia <- round(as.numeric(difftime(tiempos$HORARIO,Sys.time(), units = "mins")))
 
-  return(json_rutas)
+  if(!any(tiempos$diferencia > 0)){ # No hay proximo bus en esta ruta hasta el día siguiente, devuelvo el horario.
+    tiempos <- tiempos[order(tiempos$HORARIO),]
+    tiempos$HORARIO <- substr(tiempos$HORARIO,12,16)
+    tiempos$diferencia <- tiempos$HORARIO
+  }else{
+    tiempos <- tiempos[tiempos$diferencia > 0,]
+    pos_min_tiempo <- match(min(tiempos$diferencia),tiempos$diferencia)
+    tiempos <- tiempos[pos_min_tiempo:nrow(tiempos),]
+  }
+
+  colnames(tiempos)[ncol(tiempos)] <- "tiempo_restante"
+
+  tiempos <- tiempos[,c(2,3,5)]
+  json <- toJSON(tiempos)
+
+  return(json)
+
 }

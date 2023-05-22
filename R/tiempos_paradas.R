@@ -43,6 +43,26 @@ tiempos_paradas <- function(ruta,destino){
 
   id_ruta <- df_rutas$route_id[df_rutas$NOMBRE_RUTAS == RUTA]
   viaje <- df_viajes[df_viajes$route_id == id_ruta & df_viajes$trip_headsign == DESTINO,]
+
+
+
+  # Filtro por día de la semana ---
+  fecha <- Sys.Date()
+  dia_semana <- as.POSIXlt(fecha)$wday
+  dias_semana_ref <- c(colnames(df_calendario)[2:8])
+  num_semana <- 0:6
+  num_semana <- num_semana[c(2:7,1)]
+  nombre_semana <- num_semana
+  names(dias_semana_ref) <- nombre_semana
+
+  dia_semana_actual <- dias_semana_ref[dia_semana]
+
+  calendario <- df_calendario[which(df_calendario$service_id %in% viajes_parada$service_id),]
+  pos_dia <- match(dia_semana_actual,colnames(calendario))
+  id_servicio <- calendario$service_id[calendario[,pos_dia] == 1]
+  # ---
+  viaje <- viaje[which(viaje$service_id %in% id_servicio),]
+
   tiempos <- df_tiempo_paradas[which(df_tiempo_paradas$trip_id %in% viaje$trip_id),]
   tiempos$arrival_time <- as.POSIXct(tiempos$arrival_time, format = '%H:%M', tz = 'CET')
   tiempos$departure_time <- as.POSIXct(tiempos$departure_time, format = '%H:%M', tz = 'CET')
