@@ -92,7 +92,9 @@ tiempos_paradas <- function(ruta,destino){
     tiempos <- tiempos[which(tiempos$trip_id %in% trip_ids),]
     tiempos <- tiempos[tiempos$diferencia > 0,]
     secuencias_duplicadas <- which(duplicated(tiempos$stop_sequence))
-    tiempos <- tiempos[-secuencias_duplicadas,]
+    if(!identical(secuencias_duplicadas, integer(0))){
+      tiempos <- tiempos[-secuencias_duplicadas,]
+    }
 
     #pos_min_tiempo <- match(min(tiempos$diferencia),tiempos$diferencia)
     #tiempos <- tiempos[pos_min_tiempo:nrow(tiempos),]
