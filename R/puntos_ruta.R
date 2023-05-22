@@ -56,7 +56,7 @@ puntos_ruta <- function(ruta,destino){
 
   dia_semana_actual <- dias_semana_ref[dia_semana]
 
-  calendario <- df_calendario[which(df_calendario$service_id %in% viajes_parada$service_id),]
+  calendario <- df_calendario[which(df_calendario$service_id %in% viaje$service_id),]
   pos_dia <- match(dia_semana_actual,colnames(calendario))
   id_servicio <- calendario$service_id[calendario[,pos_dia] == 1]
   # ---
