@@ -88,6 +88,15 @@ tiempo_por_parada <- function(parada){
   colnames(tiempos)[ncol(tiempos)] <- "tiempo_restante"
 
   tiempos <- tiempos[,c(2,3,5)]
+
+
+  tiempos$parada_destino <- paste(tiempos$RUTA,"_",tiempos$SENTIDO, sep = "")
+  duplicados <- duplicated(tiempos$parada_destino)
+  if(!identical(duplicados,integer(0))){
+    tiempos <- tiempos[-which(duplicados),]
+  }
+  tiempos <- tiempos[,-4]
+
   json <- toJSON(tiempos)
 
   return(json)
