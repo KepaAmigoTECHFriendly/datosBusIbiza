@@ -82,7 +82,7 @@ tiempos_paradas <- function(ruta,destino){
     pos_max <- max(tiempos$stop_sequence)
     trip_id_ultimas_paradas <- tiempos[tiempos$stop_sequence == pos_max,]
     trip_id_ultimas_paradas <- trip_id_ultimas_paradas[trip_id_ultimas_paradas$diferencia > 0,]
-    trip_id_primeras_paradas <- tiempos[tiempos$stop_sequence == 0,]
+    trip_id_primeras_paradas <- tiempos[tiempos$stop_sequence == min(tiempos$stop_sequence),]
     trip_id_primeras_paradas <- trip_id_primeras_paradas[trip_id_primeras_paradas$diferencia > 0,]
     trip_ids <- unique(tiempos$trip_id)
     pos_primer_id <- match(trip_id_ultimas_paradas$trip_id[1],trip_ids)
