@@ -41,6 +41,7 @@ tiempos_paradas <- function(ruta,destino){
   #------------------------------------------------------------------------------------
   #------------------------------------------------------------------------------------
 
+
   id_ruta <- df_rutas$route_id[df_rutas$NOMBRE_RUTAS == RUTA]
   viaje <- df_viajes[df_viajes$route_id == id_ruta & df_viajes$trip_headsign == DESTINO,]
 
@@ -67,11 +68,8 @@ tiempos_paradas <- function(ruta,destino){
   tiempos$arrival_time <- as.POSIXct(tiempos$arrival_time, format = '%H:%M', tz = 'CET')
   tiempos$departure_time <- as.POSIXct(tiempos$departure_time, format = '%H:%M', tz = 'CET')
   #tiempos$DESTINO <- viaje$trip_headsign[match(tiempos$trip_id,viaje$trip_id)]
-  tiempo_actual <- Sys.time()
-  hour(tiempo_actual) <- hour(tiempo_actual) + 1
-  tiempos$diferencia <- round(as.numeric(difftime(tiempos$arrival_time,tiempo_actual, units = "mins")))
+  tiempos$diferencia <- round(as.numeric(difftime(tiempos$arrival_time,Sys.time(), units = "mins")))
   tiempos <- tiempos[complete.cases(tiempos[, 2]), ]
-
 
   if(!any(tiempos$diferencia > 0)){ # No hay proximo bus en esta ruta hasta el día siguiente, devuelvo el horario.
     tiempos <- tiempos[order(tiempos$arrival_time),]
