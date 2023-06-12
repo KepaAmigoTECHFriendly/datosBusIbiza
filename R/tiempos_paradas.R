@@ -64,6 +64,16 @@ tiempos_paradas <- function(ruta,destino){
   # ---
   viaje <- viaje[which(viaje$service_id %in% id_servicio),]
 
+  # Si no hay ruta hoy, doy mensaje informativo.
+  if(nrow(viaje) == 0){
+    print("No hay trayectos para hoy en la línea y sentido seleccionado")
+    dias_semana_castellano <- c("Lunes","Martes","Miércoles","Jueves","Viernes","Sábado","Domingo")
+    mensaje <- paste("001 - Ruta fuera de servicio hasta el ",dias_semana_castellano[match(1,calendario[,2:8])],". Más información en: ",df_rutas$route_url[df_rutas$route_id == id_ruta], sep = "")
+
+    return(mensaje)
+  }
+
+
   tiempos <- df_tiempo_paradas[which(df_tiempo_paradas$trip_id %in% viaje$trip_id),]
   tiempos$arrival_time <- as.POSIXct(tiempos$arrival_time, format = '%H:%M', tz = 'CET')
   tiempos$departure_time <- as.POSIXct(tiempos$departure_time, format = '%H:%M', tz = 'CET')
@@ -112,7 +122,7 @@ tiempos_paradas <- function(ruta,destino){
   paradas <- df_paradas[which(df_paradas$stop_id %in% tiempos$stop_id),]
   paradas <- paradas[order(match(paradas$stop_id,tiempos$stop_id)),]
   paradas$tiempo_restante <- tiempos$diferencia
-  DF_JSON_LISTADO <- paradas[,c("stop_name","tiempo_restante","stop_lat","stop_lon")]
+  DF_JSON_LISTADO <- paradas[,c("stop_name","tiempo_restante","stop_lat","stop_lon","stop_url")]
   DF_JSON_LISTADO <- toJSON(DF_JSON_LISTADO)
   return(DF_JSON_LISTADO)
 }
