@@ -64,9 +64,9 @@ tiempos_paradas <- function(ruta,destino){
   # ---
   viaje <- viaje[which(viaje$service_id %in% id_servicio),]
 
+
   # Si no hay ruta hoy, doy mensaje informativo.
   if(nrow(viaje) == 0){
-    print("No hay trayectos para hoy en la línea y sentido seleccionado")
     dias_semana_castellano <- c("Lunes","Martes","Miércoles","Jueves","Viernes","Sábado","Domingo")
     mensaje <- paste("001 - Ruta fuera de servicio hasta el ",dias_semana_castellano[match(1,calendario[,2:8])],". Más información en: ",df_rutas$route_url[df_rutas$route_id == id_ruta], sep = "")
 
